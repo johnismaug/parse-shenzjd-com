@@ -1,7 +1,7 @@
 import { createApiHandler } from "@/lib/api-middleware";
 import { DEFAULT_MOBILE_UA } from "@/lib/default-mobile-ua";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 async function parseVideoId(videoId) {
   const reqUrl = `https://v.6.cn/coop/mobile/index.php?padapi=minivideo-watchVideo.php&av=3.0&encpass=&logiuid=&isnew=1&from=0&vid=${videoId}`;

@@ -1,6 +1,6 @@
 import { createApiHandler } from "@/lib/api-middleware";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 async function parseVideoId(videoId) {
   const reqUrl = `https://kg.qq.com/node/play?s=${videoId}`;

@@ -1,7 +1,7 @@
 import { createApiHandler } from "@/lib/api-middleware";
 import { DEFAULT_MOBILE_UA } from "@/lib/default-mobile-ua";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 async function parseVideoId(videoId) {
   const reqUrl = `https://quanmin.hao222.com/wise/growth/api/sv/immerse?source=share-h5&pd=qm_share_mvideo&_format=json&vid=${videoId}`;

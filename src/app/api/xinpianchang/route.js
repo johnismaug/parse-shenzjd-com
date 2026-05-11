@@ -1,6 +1,6 @@
 import { createApiHandler } from "@/lib/api-middleware";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 /**
  * 用正则从 HTML 中提取内容（替代 linkedom）

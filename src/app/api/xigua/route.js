@@ -2,7 +2,7 @@ import { createApiHandler } from "@/lib/api-middleware";
 import { logger } from "@/lib/api-utils";
 import { getRedirectLocation } from "@/lib/redirect-location";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 const PAGE_HEADERS = {
   "User-Agent":

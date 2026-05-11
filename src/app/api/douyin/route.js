@@ -1,8 +1,7 @@
 import { createApiHandler } from "@/lib/api-middleware";
 import { logger } from "@/lib/api-utils";
 
-// Docker 自托管下 Node runtime 对外网 fetch 通常比 Edge 沙箱更稳定（抖音等站）
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 async function douyin(url) {
   try {

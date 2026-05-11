@@ -1,6 +1,6 @@
 import { createApiHandler } from "@/lib/api-middleware";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 async function acfunParse(shareUrl) {
   const res = await fetch(shareUrl, {

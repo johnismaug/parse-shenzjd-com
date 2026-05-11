@@ -2,7 +2,7 @@ import { createApiHandler } from "@/lib/api-middleware";
 import { DEFAULT_MOBILE_UA } from "@/lib/default-mobile-ua";
 import { getRedirectLocation } from "@/lib/redirect-location";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 function getTwitterToken(idStr) {
   const num = parseFloat(idStr);

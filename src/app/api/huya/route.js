@@ -1,6 +1,6 @@
 import { createApiHandler } from "@/lib/api-middleware";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 async function parseVideoId(videoId) {
   const reqUrl = `https://liveapi.huya.com/moment/getMomentContent?videoId=${videoId}`;

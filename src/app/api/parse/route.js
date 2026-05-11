@@ -239,4 +239,4 @@ export async function GET(request) {
   }
 }
 
-export const runtime = "nodejs";
+export const runtime = "edge";
